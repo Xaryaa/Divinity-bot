@@ -63,21 +63,15 @@ bot.on('message', function(message){
 		message.reply('Wowhead : https://www.wowhead.com/classes#warrior')
 	}
 	
-	if (message.content.startsWith('!log')){
-		message.reply('check')
-		let args = message.content.split('')
-		message.reply('check2')
-		for(i=0;i<args.lenght;i++){
-			message.reply(args[i])
-		}
-		message.reply('check3')
-		if (args.lenght > 0){
+/*	if (message.content.startsWith('!log')){
+		let args = message.content.split(' ')
+		if (args.lenght > 1){
 			message.reply('https://www.warcraftlogs.com/character/eu/archimonde/'+args[1])
 		}
 		else {
 			message.reply('Entrez un pseudo')
 		}	
-	}
+	}*/
 })
 
 bot.login('NDkzMzQzMjgxNDY0MjEzNTE1.Do3zkQ.DJ0fPWzshWZHVW1f74Oaj-1QBUM')
