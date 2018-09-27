@@ -13,12 +13,12 @@ bot.on('message', function(message){
 		message.reply('Wowhead : https://www.wowhead.com/classes#demonhunter')
 	}
 	
-	if (message.content === ('!druide' || '!druid')){
+	if (message.content === '!druide' || message.content === '!druid'){
 		message.reply('Discord : https://bit.ly/2LBI1jr')
 		message.reply('Wowhead : https://www.wowhead.com/classes#druid')
 	}
 	
-	if (message.content === ('!hunter' || '!chasseur' || '!hunt' || '!huntard')){
+	if (message.content === ('!hunter' || '!chasseur' || '!hunt')){
 		message.reply('Discord : https://bit.ly/2AewDFy && https://bit.ly/2NPDMOG')
 		message.reply('Wowhead : https://www.wowhead.com/classes#shaman')
 	}
