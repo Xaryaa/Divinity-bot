@@ -64,10 +64,13 @@ bot.on('message', function(message){
 	}
 	
 	if (message.content.startsWith('!log')){
+		message.reply('check')
 		let args = message.content.split(' ')
+		message.reply('check2')
 		for(i=0;i<args.lenght;i++){
 			message.reply(args[i])
 		}
+		message.reply('check3')
 		if (args.lenght > 0){
 			message.reply('https://www.warcraftlogs.com/character/eu/archimonde/'+args[1])
 		}
