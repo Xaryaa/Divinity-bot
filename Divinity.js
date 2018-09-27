@@ -18,7 +18,7 @@ bot.on('message', function(message){
 		message.reply('Wowhead : https://www.wowhead.com/classes#druid')
 	}
 	
-	if (message.content === ('!hunter' || '!chasseur' || '!hunt')){
+	if (message.content === '!hunter' || message.content === '!chasseur' || message.content === '!hunt' || message.content === '!huntard'){
 		message.reply('Discord : https://bit.ly/2AewDFy && https://bit.ly/2NPDMOG')
 		message.reply('Wowhead : https://www.wowhead.com/classes#shaman')
 	}
@@ -28,7 +28,7 @@ bot.on('message', function(message){
 		message.reply('Wowhead : https://www.wowhead.com/classes#mage')
 	}
 	
-	if (message.content === ('!monk' || '!moine')){
+	if (message.content === '!monk' || message.content === '!moine'){
 		message.reply('Discord : https://bit.ly/2uYPL5B &&  https://bit.ly/2NNs1rL')
 		message.reply('Wowhead : https://www.wowhead.com/classes#monk')
 	}
@@ -38,27 +38,27 @@ bot.on('message', function(message){
 		message.reply('Wowhead : https://www.wowhead.com/classes#paladin')
 	}
 	
-	if (message.content === ('!priest' || '!pretre')){
+	if (message.content === '!priest' || message.content === '!pretre'){
 		message.reply('Discord : https://bit.ly/2N58vLG &&  https://bit.ly/2LtT7aU &&  https://bit.ly/2LMbo2F')
 		message.reply('Wowhead : https://www.wowhead.com/classes#priest')
 	}
 	
-	if (message.content === ('!rogue' || '!voleur')){
+	if (message.content === '!rogue' || message.content === '!voleur'){
 		message.reply('Discord : http://urlz.fr/7OBA')
 		message.reply('Wowhead : https://www.wowhead.com/classes#rogue')
 	}
 	
-	if (message.content === ('!shaman' || '!chaman' || '!sham' || '!cham')){
+	if (message.content === '!shaman' || message.content === '!chaman' || message.content === '!sham' || message.content === '!cham'){
 		message.reply('Discord : https://bit.ly/2AewDFy && https://bit.ly/2NPDMOG')
 		message.reply('Wowhead : https://www.wowhead.com/classes#shaman')
 	}
 	
-	if (message.content === ('!warlock' || '!demoniste' || '!lock' || '!demo')){
+	if (message.content === '!warlock' || message.content === '!demoniste' || message.content === '!lock' || message.content === '!demo'){
 		message.reply('Discord : https://bit.ly/2LEzBHX')
 		message.reply('Wowhead : https://www.wowhead.com/classes#warlock')
 	}
 	
-	if (message.content === ('!warrior' || '!guerrier' || '!war')){
+	if (message.content === '!warrior' || message.content === '!guerrier' || message.content === '!war'){
 		message.reply('Discord : https://bit.ly/2O5U86l')
 		message.reply('Wowhead : https://www.wowhead.com/classes#warrior')
 	}
