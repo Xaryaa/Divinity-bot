@@ -65,7 +65,7 @@ bot.on('message', function(message){
 	
 	if (message.content.startsWith('!log')){
 		let args = message.content.split(' ')
-		if (args.lenght > 1){
+		if (args.lenght > 0){
 			message.reply('https://www.warcraftlogs.com/character/eu/archimonde/'+args[1])
 		}
 		else {
