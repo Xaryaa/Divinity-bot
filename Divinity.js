@@ -65,7 +65,7 @@ bot.on('message', function(message){
 	
 	if (message.content.startsWith('!log')){
 		message.reply('check')
-		let args = message.content.split(' ')
+		let args = message.content.split('')
 		message.reply('check2')
 		for(i=0;i<args.lenght;i++){
 			message.reply(args[i])
