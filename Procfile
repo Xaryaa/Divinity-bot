@@ -1,1 +1,1 @@
-woerker: node Divinity.js
+worker: node Divinity.js
