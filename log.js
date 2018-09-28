@@ -7,4 +7,5 @@ module.exports = class log {
     let args = message.content.split(' ')
     args.shift()
     message.reply('https://www.warcraftlogs.com/character/eu/archimonde/ + args.join('%20'))
+  }
 }
