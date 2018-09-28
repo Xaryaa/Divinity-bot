@@ -6,6 +6,6 @@ module.exports = class log {
   static action (message){
     let args = message.content.split(' ')
     args.shift()
-    message.reply('https://www.warcraftlogs.com/character/eu/archimonde/ + args.join('%20'))
+    message.reply('https://www.warcraftlogs.com/character/eu/archimonde/' + args.join('%20'))
   }
 }
