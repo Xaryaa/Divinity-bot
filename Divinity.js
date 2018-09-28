@@ -1,5 +1,6 @@
 const Discord = require('discord.js')
 const bot = new Discord.Client()
+const log = require('./log')
 
 bot.on('message', function(message){
 	
@@ -72,6 +73,9 @@ bot.on('message', function(message){
 			message.reply('Entrez un pseudo')
 		}	
 	}*/
+	if (log.match(message)){
+		log.action(message)
+	}
 })
 
 bot.login('NDkzMzQzMjgxNDY0MjEzNTE1.Do3zkQ.DJ0fPWzshWZHVW1f74Oaj-1QBUM')
