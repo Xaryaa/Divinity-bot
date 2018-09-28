@@ -1,6 +1,7 @@
 const Discord = require('discord.js')
 const bot = new Discord.Client()
 const log = require('./log')
+const raiderio = require('./raiderio')
 
 bot.on('message', function(message){
 	
@@ -64,17 +65,12 @@ bot.on('message', function(message){
 		message.reply('Wowhead : https://www.wowhead.com/classes#warrior')
 	}
 	
-/*	if (message.content.startsWith('!log')){
-		let args = message.content.split(' ')
-		if (args.lenght > 1){
-			message.reply('https://www.warcraftlogs.com/character/eu/archimonde/'+args[1])
-		}
-		else {
-			message.reply('Entrez un pseudo')
-		}	
-	}*/
 	if (log.match(message)){
 		log.action(message)
+	}
+	
+	if (raiderio.match(message)){
+		raiderio.action(message)
 	}
 })
 
