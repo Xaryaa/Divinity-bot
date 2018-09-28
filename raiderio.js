@@ -1,6 +1,6 @@
 module.exports = class raiderio {
   static match (message){
-    return message.content.startsWith('!log')
+    return message.content.startsWith('!raiderio')
   }
   
   static action (message){
