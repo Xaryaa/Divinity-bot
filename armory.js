@@ -6,6 +6,6 @@ module.exports = class armory {
   static action (message){
     let args = message.content.split(' ')
     args.shift()
-    message.reply('https://worldofwarcraft.com/en-gb/character/archimonde/armory' + args.join('%20'))
+    message.reply('https://worldofwarcraft.com/en-gb/character/archimonde/' + args.join('%20'))
   }
 }
