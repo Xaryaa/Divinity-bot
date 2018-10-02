@@ -74,11 +74,11 @@ bot.on('message', function(message){
 	}
 })
 
-bot.on(guildMemberAdd,function(member){
+/*bot.on(guildMemberAdd,function(member){
 	var fileSystem=new ActiveXObject("Scripting.FileSystemObject");
 	var monfichier=fileSystem.OpenTextFile("bdd.txt", 2 ,true);
 	monfichier.WriteLine(member.displayName + " 1000");
 	monfichier.Close();
-})
+})*/
 
 bot.login('NDkzMzQzMjgxNDY0MjEzNTE1.Do3zkQ.DJ0fPWzshWZHVW1f74Oaj-1QBUM')
