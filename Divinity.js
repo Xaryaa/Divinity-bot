@@ -2,6 +2,7 @@ const Discord = require('discord.js')
 const bot = new Discord.Client()
 const log = require('./log')
 const raiderio = require('./raiderio')
+const armory = require('./armory')
 
 bot.on('message', function(message){
 	
@@ -71,6 +72,10 @@ bot.on('message', function(message){
 	
 	if (raiderio.match(message)){
 		raiderio.action(message)
+	}
+	
+	if (armory.match(message)){
+		armory.action(message)
 	}
 })
 
