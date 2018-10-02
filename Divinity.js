@@ -74,4 +74,9 @@ bot.on('message', function(message){
 	}
 })
 
+/*bot.on(guildMemberAdd,function(member){
+	
+	
+})*/
+
 bot.login('NDkzMzQzMjgxNDY0MjEzNTE1.Do3zkQ.DJ0fPWzshWZHVW1f74Oaj-1QBUM')
