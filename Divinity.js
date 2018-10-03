@@ -86,4 +86,4 @@ bot.on('message', function(message){
 	monfichier.Close();
 })*/
 
-bot.login('NDkzMzQzMjgxNDY0MjEzNTE1.DpZOhQ.Iw0UY1IOT42bw8WCu-gvuKz5e-c')
+bot.login('NDk3MDMxNjUzODc3ODc0NzI5.DpZQjw.06s95IWddzlGrSQGDFcweuV-NhM')
